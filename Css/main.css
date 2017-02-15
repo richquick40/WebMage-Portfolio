@@ -1,0 +1,65 @@
+/*background*/
+body{
+  background-image:url('H:/WebMage/images/mac.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*hero logo*/
+.navbar-brand{
+  color: #e74c3c;
+  font-family:'Lobster', cursive;
+  weight:bold;
+  font-size-adjust: auto;
+  font-size: 3em !important;
+}
+
+.navbar-brand:hover{
+  transition: 0.5s;
+  color:black;
+}
+
+/*toggle menu*/
+.icon-bar{
+background-color:  white;
+}
+
+/*navbar links*/
+li a{
+  color: #ecf0f1;
+  font-size: 22px;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+}
+
+li a:hover{
+  transition: 1s;
+  color:black;
+}
+
+/*content*/
+h1{
+  text-align: center;
+  font-family:'Lobster', cursive !important;
+  color: #c0392b !important;
+  margin: 0 auto;
+  padding-top: 8%;
+  font-size:150px !important;
+ }
+
+ h4{
+   text-align:center;
+   color: #ecf0f1 !important;
+   margin: 0 auto;
+   padding-top: 2%;
+   font-family: 'Raleway', sans-serif;
+   font-size: 40px !important;
+ }
+
+/*button*/
+.button{
+  margin-left: 43%;
+  margin-top:10%;
+  border-radius: 25px;
+}
